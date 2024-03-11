@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px;
+  background-color: #ffd569;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  height: 90vh;
+  min-width: 90%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 65px 75px 65px 75px;
+}
+
+.main-head {
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+span {
+  color: #ffd569;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+.button-image {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px 15px 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  margin-top: 50px;
+}
